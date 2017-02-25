@@ -12,3 +12,4 @@ a Chrome extension
 -look into other platforms
 -look into potential languages
 -look into relevant apis (youtube subtitle service thing, I'm looking at you)
+-learn how to format README.md docs
