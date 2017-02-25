@@ -1,13 +1,19 @@
 # subtle
 ##Entry for HackIllinois 2017
-###An automatic speech recognition app applied to video chat
+###An automatic *offline* speech recognition app applied to video chat
 
 Subtle is an extensible voice-to-text subtitler that enables users seamless communication even when video chat is spotty. 
 
-a Chrome or Firefox extension 
-	* targets Hangouts, Messenger, etc.
+A Chrome or Firefox extension 
+* Seamless interoperability with existing video chat platforms
+* targets Hangouts, Messenger, etc.
 
-	
+##Motivation
+* People in places with poor connection cannot video chat smoothly
+* Makes it more accessible for deaf individuals to video chat
+* Alleviates hardware that falls short of its intended purpose (ie. microphone capability)
+
+
 ## todo
 * look into chrome extensions
 * look into other platforms
