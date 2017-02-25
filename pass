@@ -1,0 +1,4 @@
+key is located in ~/.ssh/
+
+ran this command to set envvar:
+export GOOGLE_APPLICATION_CREDENTIALS=~/.ssh/subtle-04ad19805b51.json
