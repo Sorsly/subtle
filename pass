@@ -1,4 +1,8 @@
 key is located in ~/.ssh/
 
-ran this command to set envvar:
-export GOOGLE_APPLICATION_CREDENTIALS=~/.ssh/subtle-04ad19805b51.json
+in root git folder, run this command to set envvar:
+export GOOGLE_APPLICATION_CREDENTIALS=~/Documents/workspace/subtle/subtleLocal/subtle-04ad19805b51.json
+	https://cloud.google.com/speech/docs/common/auth#set_up_a_service_account
+
+ffmpeg fix (google speech only takes a 1 channel audio file) (second answer)
+	http://stackoverflow.com/questions/39737913/google-speech-api-sample-rate-in-request-does-not-match-flac-header
