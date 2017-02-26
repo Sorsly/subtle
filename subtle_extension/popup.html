@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Subtle</title>
+    <script src="popup.js"></script>
+	<script>
+	function hasGetUserMedia() 
+	{
+		return !!(navigator.getUserMedia || navigator.webkitGetUserMedia ||
+        navigator.mozGetUserMedia || navigator.msGetUserMedia);
+	}
+	if (hasGetUserMedia()) {
+	// Good to go!
+	} else {
+	alert('getUserMedia() is not supported in your browser');
+	}
+	</script>
+  </head>
+  <body>
+    <font face="Bradley Hand ITC" size="10">Subtle</font>
+    <button id="checkPage">Activate Subtle</button>
+	<button type = "button" onclick = "hasGetUserMedia()">Load Audio</button>
+  </body>
+  <input type="file" accept="audio/*;capture=microphone">
+  
+</html>
