@@ -1,6 +1,6 @@
 # subtle
-##Entry for HackIllinois 2017
-###An automatic *offline* speech recognition app applied to video chat
+## Entry for HackIllinois 2017
+### An automatic *offline* speech recognition app applied to video chat
 
 Subtle is an extensible voice-to-text subtitler that enables users seamless communication even when video chat is spotty. 
 
